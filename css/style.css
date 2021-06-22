@@ -19,3 +19,33 @@ h3 {
     color: hsl(205,86%,17%);
 }
 
+.lorem-form {
+    text-transform: capitalize;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 1.25rem;
+    color: hsl(205,86%,17%);
+}
+
+input {
+    padding: 0.25rem 0.5rem;
+    width: 4rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+}
+
+button {
+    background: hsl(205,100%,96%);
+}
+
+.result {
+    margin-bottom: 2rem;
+}
