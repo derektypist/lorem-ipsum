@@ -22,7 +22,7 @@ form.addEventListener("submit",function(e) {
     const value = parseInt(amount.value);
     const random = Math.floor(Math.random() * text.length);
 
-    // Check if the value is a number or between 0 and 9
+    // Check if the value is a number or between 1 and 9
     if (isNaN(value) || value<=0 || value>9) {
         result.innerHTML = `<p class="result">${text[random]}</p>`;
     } else {
